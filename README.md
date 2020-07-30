@@ -3,17 +3,17 @@ Inspired by SethBling's "MarI/O - Machine Learning for Video Games" video, I imp
 
 ![](play.gif)
 
-##Instructions to run 
+## Instructions to run 
 
 ```
 pip install -r requirements.txt
 python -m retro.import rom/SuperMarioBros-Nes.nes
 ```
-##Main Script
+## Main Script
 ```
 python main.py
 ```
-Options
+### Options
 ```
   -h, --help            show this help message and exit
   --config_file CONFIG_FILE
@@ -22,11 +22,11 @@ Options
   --generations GENERATIONS
                         Number of generations to compute
 ```
-##Visualization Scripts: 
+## Visualization Scripts: 
 ```
 python Plot_Data.py 
 ```
-Options
+### Options
 ```
 optional arguments:
   -h, --help            show this help message and exit
@@ -36,7 +36,7 @@ optional arguments:
 ```
 python Comparing_Plots.py
 ```
-Options
+### Options
 ```
   -h, --help            show this help message and exit
   --generation GENERATION
